@@ -2,7 +2,7 @@ package com.example.demoapp.basic_kotlin
 
 // 1. Numeric Data type----------->
 /*
-fun main(){
+fun com.example.demoapp.geometric.com.example.demoapp.geometric.main(){
   val byteVal: Byte = 127
   val shortVal: Short= 32000
   val intValue: Int =10000000
@@ -23,7 +23,7 @@ fun main(){
 
 // Character and String variable ------------>
 /*
-fun main(){
+fun com.example.demoapp.geometric.com.example.demoapp.geometric.main(){
     val charValue:Char='A';
     val stringValue:String="Riyazur Rohman Kawchar";
     println("Character and String -> Chara: $charValue , String: $stringValue");
@@ -34,7 +34,7 @@ fun main(){
 
 
 // Boolean Data Type ---------------->
-/*fun main(){
+/*fun com.example.demoapp.geometric.com.example.demoapp.geometric.main(){
     val isKotlin:Boolean=true;
     val isJava:Boolean=false;
 
@@ -62,7 +62,7 @@ fun main(){
 //nullable Data type
 
 /*
-fun main(){
+fun com.example.demoapp.geometric.com.example.demoapp.geometric.main(){
     var name:String?=null;
     println("Name : $name")
     name="RRK"

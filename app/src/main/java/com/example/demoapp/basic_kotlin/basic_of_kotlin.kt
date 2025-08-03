@@ -2,7 +2,7 @@ package com.example.demoapp.basic_kotlin
 
 // between val and var
 
-/*fun main() {
+/*fun com.example.demoapp.geometric.com.example.demoapp.geometric.main() {
  // var name ="Riyazur Rohman Kawchar";
   var name ="Riyazur Rohman Kawchar";
     name="RRK";
@@ -15,14 +15,14 @@ package com.example.demoapp.basic_kotlin
 
 // used lateinit we must initialize after declare the variable otherwise will give an error
 /*
-fun main() {
+fun com.example.demoapp.geometric.com.example.demoapp.geometric.main() {
  lateinit var name:String;
     name="RRK";
     println(name);
 }*/
 
 // Standard input -------------->
-/*fun main(){
+/*fun com.example.demoapp.geometric.com.example.demoapp.geometric.main(){
     print("Type you name :")
     val name= readln();
     println(name)
