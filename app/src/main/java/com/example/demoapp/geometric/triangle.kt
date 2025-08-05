@@ -7,7 +7,6 @@ fun main(){
 
 }
 
-
 private  fun calculateTriangle(){
     val height= inputDoubleValue("Height")
     val base= inputDoubleValue("Base")
