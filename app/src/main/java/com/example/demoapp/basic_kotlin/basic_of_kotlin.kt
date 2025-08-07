@@ -48,9 +48,72 @@ fun main(){
 //    println(countries[0]) // output: Bangladesh
 //
 //    println(countries.size) // output:6
+//
+//  val map= mutableMapOf("Apple" to 250,"Mangoes" to 90,"Banana" to 120,"Orange" to 300)
+//  println(map) // output
+//  println(map["Orange"])
 
-  val map= mutableMapOf("Apple" to 250,"Mangoes" to 90,"Banana" to 120,"Orange" to 300)
-  println(map) // output
-  println(map["Orange"])
+//  checkNull()
+//
+//  val a=square(10)
+//  println(a)
+
+//  printData(100)
+//  printData("Kotlin")
+//  printData(3.1416)
+
+// val name= generic("Riyazur Ronman Kawchar")
+// val number= generic(20000)
+//  println(name)
+//  println(number)
+
+
+ //println(greet("Kawchar"))
+
+  val message= higherOrderFun("Kawchar"){name->"Hello $name"}
+  println(message)
+
 }
 
+
+fun checkNull(){
+  var name: String? ="Kawchar"
+
+  name?.let {
+    println("My name is $it")
+  }
+
+
+  name=null
+
+  name?.let {
+    println("This won't be printed")
+  }
+
+}
+
+
+
+//Single expression function
+
+fun square(n:Int)=n*n
+
+// Generic Function
+
+fun <T> printData(data:T){
+  println("Data : $data")
+}
+
+// Generic return type function
+fun <T> generic(data:T):T{
+  return data
+}
+
+val greet:(String)->String={name->"This is $name"}
+
+
+/// Higher order function
+
+fun higherOrderFun(name:String,action:(String)->String):String{
+  return  action(name)
+}
